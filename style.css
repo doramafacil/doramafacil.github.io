@@ -81,15 +81,16 @@ h1{
     font-size: 30px;
     margin-top: 30px;
     margin-bottom: 15px;
-    text-shadow: rgb(0, 48, 87) 0px 1px 0px;
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
 }
     
 h3{
-    font-size: 15px;
+    font-size: 17px;
+    color: black;
     font-weight: bold;
     margin-bottom: 15px;
     margin-bottom: 35px;
-    text-shadow: rgb(0, 48, 87) 0px 1px 0px;
+    
 }
 
 p{
@@ -116,28 +117,28 @@ p{
     */
 
     /*--- EFEITO DE VIDRO ----*/
-    background-color: rgb(255, 255, 255,  50%);
+    background-color: rgb(255, 255, 255, 80%);
     backdrop-filter: blur(5px);
 
     padding: 15px  30px;
     border-radius: 25px;
     text-decoration: none;
-    color: #304779;
-    text-shadow: rgb(0, 95, 173) 0px 0.5px 0px;
+    color: #ff0565;
+    text-shadow: rgb(0, 0, 0) 0px 0.5px 0px;
     font-weight: bolder;
     font-size: 18px;
 }
 
-/*-- Destaque mouse -------------------------
+/*-- Destaque mouse -------------------------*/
 
 .link-list li a:hover{
-    background:  rgba(255, 1, 1, 0.603);
+    background:  rgba(255, 1, 77, 0.603);
     color: white;
     text-shadow: rgb(0, 0, 0) 0px 0.5px 0px;    
 }
-----------------------------------------------*/
+
 .link-list li a span{
-    color: rgb(0, 48, 87);
+    color: rgb(0, 0, 0);
     display: block;
     margin-top: 10px;
     color: #000;
@@ -181,7 +182,7 @@ footer{
     font-size: 25px;
     color: #FFFFFF;
     font-family: 'Roboto' sans-serif;
-    background: linear-gradient(to bottom, #5A86FF, #335AD0);
+    background: linear-gradient(to bottom, #ff5ace, #d0339c);
     border-radius: 25px;
     padding:15px;
     margin-top: 25px;
@@ -200,6 +201,6 @@ footer{
 #button:hover{
     font-weight: bolder;
     opacity: 0.9;
-    background: linear-gradient(to bottom, #5A86FF, #335AD0);
+    background: linear-gradient(to bottom, #d0339c, #ff5ace);
     box-shadow: 0px 1px 2px #000000;
 }
